@@ -1,0 +1,22 @@
+body {
+    
+        width: 100px;
+        height: 100px;
+        background-color: rgb(206, 113, 36);
+        position: relative;
+        animation-name: example;
+        animation-duration: 20s;
+        animation-iteration-count: 3;
+      
+      
+    }
+      @keyframes example {
+        0%   {background-color:rgb(206, 113, 36); }
+        25%  {background-color:rgb(211, 211, 30); }
+        50%  {background-color:rgb(7, 48, 7); }
+        75%  {background-color:rgb(24, 140, 218); }
+        100% {background-color:rgb(206, 113, 36); }
+      }
+      #image {
+        
+      }
