@@ -1,8 +1,7 @@
 body {
-        width: auto;
+        margin-top: 20%;
         height: auto;
         background-color: rgb(206, 113, 36);
-        
         animation-name: example;
         animation-duration: 20s;
         animation-iteration-count: 3;
@@ -28,8 +27,9 @@ body {
         
         
       }
-      #img {
-       
+      #img{
+       width: auto;
+       padding: 0;
       }
       
       
